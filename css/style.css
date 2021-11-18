@@ -1,0 +1,29 @@
+@import "reset.css";
+
+body {position: relative;height: 100vh;color: #fff;overflow: hidden;}
+body::before {content: "";position: absolute;top: 0;left: 0;display: block;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.5);z-index: -1;}
+input::placeholder {color: rgba(255, 255, 255, .7);}
+
+.hidden {display: none;}
+
+#clock {font-size: 80px;font-weight: 700;word-spacing: -20px;}
+
+#login-form {margin-top: 15px;}
+#login-form input {all: unset;text-align: center;border-bottom: 1px solid #fff;padding-bottom: 5px;}
+#login-form button {all: unset;text-transform: uppercase;font-size: 18px;font-weight: 600;word-spacing: -1px;vertical-align: middle;padding-left: 5px;}
+
+#input_box {display: flex;flex-direction: column;justify-content: center;align-items: center;padding-top: 450px;}
+
+#greeting {font-size: 30px;font-weight: 600;text-align: center;margin-top: 20px;}
+
+#todo-form input {all: unset;border-bottom: 1px solid #fff;width: 280px;text-align: center;padding-bottom: 5px;margin: 10px auto 0;}
+#todo-list {width: 280px;margin-top: 30px;padding: 0 30px;}    
+#todo-list li {font-size: 14px;}
+#todo-list li + li {margin-top: 12px;}
+#todo-list button {all: unset;}
+#todo-list span {padding-left: 5px;}
+
+#quotes {position: absolute;left: 50%;transform: translateX(-50%);bottom: 50px;font-size: 12px;text-align: center;line-height: 20px;}
+#weather {position: absolute;top: 30px;right: 50px;font-size: 18px;font-style: italic;}
+
+img {position: absolute;top: 0;left: 0;z-index: -2;}

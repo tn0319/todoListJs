@@ -5,23 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <form id="login-form">
-        <input type="text" required maxlength="15" placeholder="what is your name?">
-        <button>Log In</button>
-    </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <div id="clock"></div>
+    <div id="input_box">
+        <div id="clock"></div>
+        
+        <form id="login-form">
+            <input type="text" required maxlength="15" placeholder="what is your name?">
+            <button>LogIn</button>
+        </form>
+        <div id="list-form" class="hidden">
+            <h1 id="greeting"></h1>
 
-    <form id="todo-form">
-        <input type="text" required placeholder="Write a To Do and Press Enter">
-    </form>
-    <ul id="todo-list"></ul>
+            <form id="todo-form">
+                <input type="text" required placeholder="Write a To Do and Press Enter">
+            </form>
+
+            <ul id="todo-list"></ul>
+        </div>
+    </div>
 
     <div id="quotes">
-        <span></span>
+        <span></span><br>
         <span></span>
     </div>
 

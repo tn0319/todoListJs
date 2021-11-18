@@ -23,7 +23,7 @@ const quotes = [
         author : "앙드레 말로" 
     },
     {
-        quotes : "행복은 습관이다,그것을 몸에 지니라",
+        quotes : "행복은 습관이다, 그것을 몸에 지니라",
         author : "허버드" 
     },
     {
